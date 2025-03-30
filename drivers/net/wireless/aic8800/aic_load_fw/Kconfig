@@ -1,4 +1,5 @@
 config AIC_LOADFW_SUPPORT
 	tristate "AIC8800 Load Firmware Support"
+	default m
 	help
 	  This is support for aic wifi driver.
